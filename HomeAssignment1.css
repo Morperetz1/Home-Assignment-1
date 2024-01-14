@@ -74,9 +74,7 @@ footer li a:visited {
 header li a:visited {
   color: rgba(227, 7, 99, 0.5);
 }
-header li a:active {
-  color: rgb(236, 171, 221);
-}
+
 .footer-section ul {
   display: flex;
   justify-content: center;
