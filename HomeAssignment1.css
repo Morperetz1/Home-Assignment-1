@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#general-information {
+  background-color: rgb(223, 69, 95);
+}
+
+#uses-benefits {
+  background-color: rgb(224, 132, 147);
+}
+
+#Growing-conditions {
+  background-color: rgb(230, 185, 192);
+}
+
+#extra {
+  background-color: pink;
+}
+
+.sections img {
+  height: 250px;
+  width: 300px;
+  margin-left: 10px;
+}
+.sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  vertical-align: center;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card {
+  width: 200px;
+  height: 320px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card:hover img {
+  box-shadow: 5px 5px 5px 0 rgba(227, 7, 176, 0.5);
+  transition: box-shadow is linear;
+}
+
+.card img {
+  width: 100%;
+  max-height: 180px;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+}
+
+.footer-section {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 rgba(227, 7, 176, 0.5);
+  background-image: url(./Images/footer.jpg);
+  background-position: center;
+}
+
+li a:visited {
+  color: rgb(223, 69, 95);
+}
+.footer-section ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-size: 20px;
+}
+.footer-section li {
+  display: inline;
+  background-color: rgb(230, 176, 183);
+  border-radius: 4px;
+  padding: 7px;
+}
+
+body {
+  background-color: rgb(237, 221, 226);
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(223, 69, 92);
+  box-shadow: 5px 5px 5px 0 rgba(227, 7, 176, 0.5);
+}
